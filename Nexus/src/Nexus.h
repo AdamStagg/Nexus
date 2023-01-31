@@ -4,6 +4,7 @@
 
 
 #include "Nexus/Application.h"
+#include "Nexus/Log.h"
 
 // --- Entry point --------------------------
 
