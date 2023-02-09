@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Nexus">
+      <UniqueIdentifier>{B8E7BB0D-24FC-E3BE-ED7D-871E5951E0EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nexus\Events">
+      <UniqueIdentifier>{9CB438EF-8817-C893-319D-004A1DDF9316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Nexus.h" />
+    <ClInclude Include="src\Nexus\Application.h">
+      <Filter>Nexus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nexus\Core.h">
+      <Filter>Nexus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nexus\EntryPoint.h">
+      <Filter>Nexus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nexus\Events\ApplicationEvent.h">
+      <Filter>Nexus\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nexus\Events\Event.h">
+      <Filter>Nexus\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nexus\Events\KeyEvent.h">
+      <Filter>Nexus\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nexus\Events\MouseEvent.h">
+      <Filter>Nexus\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nexus\Layer.h">
+      <Filter>Nexus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nexus\LayerStack.h">
+      <Filter>Nexus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nexus\Log.h">
+      <Filter>Nexus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nexus\Window.h">
+      <Filter>Nexus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\WindowsWindow.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nxpch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Nexus\Application.cpp">
+      <Filter>Nexus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Nexus\Layer.cpp">
+      <Filter>Nexus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Nexus\LayerStack.cpp">
+      <Filter>Nexus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Nexus\Log.cpp">
+      <Filter>Nexus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\WindowsWindow.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nxpch.cpp" />
+  </ItemGroup>
+</Project>
